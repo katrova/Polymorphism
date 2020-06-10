@@ -15,6 +15,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+    RectangularTriangle triangle = new RectangularTriangle(3,4);
+    triangle.toConsole();
+        System.out.println(triangle.toXML());
     }
 }
